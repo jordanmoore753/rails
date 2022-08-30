@@ -16,7 +16,7 @@ gem "sprockets-rails", ">= 2.0.0"
 gem "propshaft", ">= 0.1.7"
 gem "capybara", ">= 3.26"
 gem "selenium-webdriver", ">= 4.0.0"
-
+gem "byebug"
 gem "rack-cache", "~> 1.2"
 gem "stimulus-rails"
 gem "turbo-rails"

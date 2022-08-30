@@ -113,6 +113,7 @@ module ActiveRecord
 
       # Set the inverse association, if possible
       def set_inverse_instance(record)
+        byebug
         if inverse = inverse_association_for(record)
           inverse.inversed_from(owner)
         end
