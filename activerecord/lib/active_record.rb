@@ -28,7 +28,6 @@ require "active_support/rails"
 require "active_model"
 require "arel"
 require "yaml"
-require 'byebug'
 
 require "active_record/version"
 require "active_model/attribute_set"
